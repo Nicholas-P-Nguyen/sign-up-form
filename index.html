@@ -8,62 +8,61 @@
     <title>Sign-up form</title>
 </head>
 <body>
-    <div>
-        <img id="fuji" src="./photos/mount-fuji.jpg" alt="Mount Fuji">
-    </div>
-    <div class="title">
-        <h1 class="main-header">
-            Phillip Nguyen Photography
-        </h1>
+    <div class="main-container">
+        <img src="./photos/phi-logo.png" alt="Logo">
+        <div class="form-container">
+            <div class="newsletter">
+                <h1>Stay in the loop with my Photography</h1>
+                <p>Be the first to know about my newest photo shoots, exclusive behind the scenes content, and upcoming availability.</p>
+            </div>
+            <form action="">
+                <fieldset>
+                    <div class="first-row">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" type="text" name="first-name" placeholder="John">
+                        </div>
+                        <div>
+                            <label for="email">E-Mail</label>
+                            <input id="email" type="email" name="email" placeholder="johndoe@gmail.com">
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" type="text" name="last-name" placeholder="Doe">
+                        </div>
+                        <div>
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phone-number" type="number" name="number" placeholder="012-345-6789">
+                        </div>
+                    </div>
+                    <div class="third-row">
+                        <div>
+                            <label for="password">Password</label>
+                            <input id="password" type="password" name="password" minlength="8">
+                        </div>
+                        <div>
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="button-container">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="account-text">
+                <p class="account">Already have an account? <a class="log-in" href="">Log in</a></p>
+            </div> 
+        </div>
     </div>
     <div class="footer">
         <p class="phillip">Photo by: <a href="https://www.instagram.com/phishoots/">Phillip Nguyen</a></p>
         <p class="github">Nicholas Nguyen  © | <a href="https://github.com/Nicholas-P-Nguyen">My Github</a></p>
     </div>
-    <div class="form-container">
-        <div class="newsletter">
-            <h1>Stay in the loop with my Photography</h1>
-            <p>Be the first to know about my newest photo shoots, exclusive behind the scenes content, and upcoming availability.</p>
-        </div>
-        <form action="">
-            <fieldset>
-                <div class="first-row">
-                    <div>
-                        <label for="first-name">First Name</label>
-                        <input class="column-one" id="first-name" type="text" placeholder="John">
-                    </div>
-                    <div>
-                        <label for="email">E-Mail</label>
-                        <input id="email" type="email" placeholder="johndoe@gmail.com">
-                    </div>
-                </div>
-                <div class="second-row">
-                    <div>
-                        <label for="last-name">Last Name</label>
-                        <input class="column-one" id="last-name" type="text" placeholder="Doe">
-                    </div>
-                    <div>
-                        <label for="phone-number">Phone Number</label>
-                        <input id="phone-number" type="number" placeholder="012-345-6789">
-                    </div>
-                </div>
-                <div class="third-row">
-                    <div>
-                        <label for="password">Password</label>
-                        <input class="column-one" id="password" type="password">
-                    </div>
-                    <div>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password">
-                    </div>
-                </div>
-            </fieldset>
-        <button>Create Account</button>
-        <div class="account-text">
-            <p class="account">Already have an? <a class="log-in" href="">Log in</a></p>
-        </div>
-        </form>
-    </div>
+
+
     
     
 </body>
