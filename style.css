@@ -17,22 +17,24 @@ h1 {
 p {
     text-align: center;
     padding: 0 9px;
+    color: black;
 }
 
 #fuji {
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
-#logo {
+
+.title {
     position: fixed;
     top: 5px;
     left: 50%;
     transform: translate(-50%);
-
 }
 
+
 a {
-    color: rgb(58, 189, 233);
+    color: black
 }
 
 .footer {
