@@ -16,6 +16,12 @@ h1 {
 
 .main-header {
     color: black;
+    text-align: center;
+    font-size: 35px;
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 p {
@@ -28,15 +34,6 @@ p {
     height: auto;
     width: 100vw;
 }
-
-.title {
-    color: black;
-    position: fixed;
-    top: 5px;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 
 a {
     color: black
