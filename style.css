@@ -38,7 +38,7 @@ a {
 .footer {
     color: lightblue;
     position: fixed;
-    top: 850px;
+    top: 85%;
     left: 50%;
     transform: translate(-50%);
 }
